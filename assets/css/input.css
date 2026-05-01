@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base{
+    body{
+        font-family: "Tajawal";
+        background-color: #FFFFFF;
+    }
+}
+@utility nav_link {
+  @apply hover:text-[#1D4ED8] transition-all duration-700 hover:underline hover:underline-offset-4;
+}
