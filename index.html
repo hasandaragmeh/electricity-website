@@ -5,91 +5,275 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="./assets/css/output.css" rel="stylesheet">
 
-
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
-
-
 
     <title>Document</title>
 </head>
 <body dir="rtl">
     
-    <header class="container text-center mx-auto py-4 ">
+    <header class="container text-center mx-auto md:py-2 lg:py-4  ">
         <div class="flex    justify-between">
+            <div class="drower lg:hidden">
+                <img src="./assets/img/list.png" alt="" class="w-5 h-5">
+            </div>
              <div class="flex gap-8"> 
-            <a href="./index.html" class="text-[24px] font-bold  text-[#1E40AF] ">
-                Tubas Electricity
+            <a href="./index.html" class="text-[24px]  font-extrabold text-[#1E40AF] ">
+                 شركة كهرباء طوباس
             </a>
-       
 
-   
-            <ul class="flex gap-6 text-[#475569] text-[24px] ">
-                <li>
-                   <a href="#" class="nav_link">
-                     الرئيسية
-                    </a>
-                </li>
-
-                 <li>
-                   <a href="#" class="nav_link">
-                     الشركة
-                    </a>
-                </li>
-
-                 <li>
-                   <a href="#" class="nav_link">
-                     المشتركين
-                    </a>
-                </li>
-
-                 <li>
-                   <a href="#"class="nav_link">
-                     الاخبار
-                    </a>
-                </li>
-
-                 <li>
-                   <a href="#"class="nav_link">
-                     الخدمات
-                    </a>
-                </li>
-
-                 <li>
-                   <a href="#"class="nav_link">
-                     اتصل بنا 
-                    </a>
-                </li>
-
+            <ul class="flex gap-6 text-[#475569] text-[20px] sm:hidden lg:flex">
+                <li><a href="#" class="nav_link">الرئيسية</a></li>
+                <li><a href="#" class="nav_link">الشركة</a></li>
+                <li><a href="#" class="nav_link">المشتركين</a></li>
+                <li><a href="#"class="nav_link">الاخبار</a></li>
+                <li><a href="#"class="nav_link">الخدمات</a></li>
+                <li><a href="#"class="nav_link">اتصل بنا</a></li>
             </ul>
         </div>
         
-        
-       
-        <div class="">
-                <ul class="flex gap-4">
-                    <li>
-                        <a href="#">
-                            <img src="./assets/img/serch.svg" alt="">
-                        </a>
-                    </li>
-                      <li>
-                        <a href="#">
-                            <img src="./assets/img/language.svg" alt="">
-                        </a>
-                    </li>
-                      <li>
-                        <a href="#" class="bg-[#0B5ED7] px-8 py-2 border-[0B5ED7] rounded-xl text-[#FFFFFF]">
-                            دخول الموظفين 
-                        </a>
-                    </li>
-                </ul>
+        <div>
+            <ul class="flex gap-4">
+                <li><a href="#"><img src="./assets/img/serch.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/img/language.svg" alt=""></a></li>
+                <li>
+                    <a href="#" class="bg-[#0B5ED7] sm:px-4 md:px-6 lg:px-8 py-2 border border-[0B5ED7] rounded-xl text-[#FFFFFF]">
+                        دخول الموظفين 
+                    </a>
+                </li>
+            </ul>
         </div>
 
         </div>
     </header>
 
+    <main class="container text-center mx-auto">
+          
+        <section class="hero  bg-[#EEF4FF]">
+            
+            <div class="flex h-[calc(100vh-122px)] ">
+                
+                <div class="md:pt-15 lg:pt-32 ">
+                    
+                    <div class="text-[#0047A9] md:text-[8px] lg:text-[16px] font-bold text-start">
+                        خدمات كهربائية موثوقة لكل مواطن
+                    </div>
+
+                    <div class="text-[#101C2A]  md:text-[30px]  lg:text-[60px] font-extrabold text-start ">
+                        خدمات ذكية لإدارة
+                    </div>
+
+                    <div class="text-[#0B5ED7] md:text-[30px] lg:text-[60px] font-extrabold text-start">
+                       الكهرباء بسهولة
+                    </div>
+
+                    <div class="text-[#424654] md:text-[9px] lg:text-[18px] text-start">
+                        <p>
+                            نسعى لتقديم حلول طاقة مستدامة وذكية تضمن استمرارية التيار
+                            الكهربائي لجميع سكان محافظة طوباس بكفاءة عالية وأحدث التقنيات
+                            العالمية.
+                        </p>
+                    </div>
+
+                    <div class="flex gap-4 text-center md:py-2 lg:py-5">
+                        <div>
+                            <button class="flex text-center bg-[#0B5ED7] text-[#FFFFFF] md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4">
+                                <img src="./assets/img/Beware.svg " alt=""> بلاغ عطل
+                            </button>
+                        </div>
+
+                        <div>
+                            <button class="flex text-center bg-[#FFFFFF] text-[#0B5ED7] md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4">
+                               تقديم شكوى
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="h-full w-full">
+                    <img src="./assets/img/Electricity_pole.png" alt="" class="h-full w-full ">
+                </div>
+
+            </div>
+
+            <div class="bg-[#0047A9] flex justify-between items-center text-[#FFFFFF] md:px-2 lg:px-4 m-0 ">
+                
+                <div class="1gd flex gap-2 items-center ">
+                    <div>
+                        <img src="./assets/img/star.svg" alt="">
+                    </div>
+                    <div>
+                        <p>رقم الطوارئ الموحد</p>
+                        <p class="font-bold text-[20px]">1700-111-222</p>
+                    </div>
+                </div>
+
+                <div class="2gd flex gap-2 items-center">
+                    <div>
+                        <img src="./assets/img/relation.svg" alt="">
+                    </div>
+                    <div>
+                        <p>مركز علاقات المشتركين</p>
+                    </div>
+                </div>
+
+                <div class="3gd flex gap-2 items-center">
+                    <div>
+                        <img src="./assets/img/clock.svg" alt="">
+                    </div>
+                    <div>
+                        <p>خدمة متوفرة على مدار 24 ساعة</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+                        <section class="Services  justify-start my-[96px]">
+                            <div class="text-start justify-start mx-2">
+                                <div class="Services_header ">
+                                    <p class="text-[30px] text-[#101C2A] font-bold ">الخدمات السريعة</p>
+                                    <div  class="flex justify-between ">
+                                        <div >
+                                    <p class="text-[#424654] text-[16px]  ">كل ما تحتاجه من خدمات إلكترونية في مكان واحد</p>
+                                    </div>
+                                    <div class="flex  text-[#0047A9]">
+                                    <a href="#" class="w-[124px] h-[24px] flex gap-1">
+                                        جميع الخدمات
+                                        <img src="./assets/img/arrow.svg" alt="">
+                                    </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="items  text-start py-[48px] grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-3">
+                                        <div class="bg-[#FFFFFF]  px-8 pt-8 pb-[54.7px] rounded-md">
+                                                <img src="./assets/img/Report.png" alt="" class="pb-[11px]">
+                                                <h4 class="font-bold text-[#101C2A]"> بلاغ عطل</h4>
+                                                <p class="text-[14px] text-[#424654]"> أبلغ عن أي انقطاع أو مشكلة في الشبكة الكهربائية في منطقتك فوراً. </p>
+                                        </div>
+                                         <div class="bg-[#FFFFFF]  px-8 pt-8 pb-[54.7px] rounded-md">
+                                                <img src="./assets/img/complaint.png" alt="" class="pb-[11px]">
+                                                <h4 class="font-bold text-[#101C2A]"> تقديم شكوى </h4>
+                                                <p class="text-[14px] text-[#424654]"> صوتك مسموع، أرسل ملاحظاتك أو شكواك وسنقوم بمتابعتها بأقرب وقت </p>
+                                        </div>
+                                         <div class="bg-[#FFFFFF]  px-8 pt-8 pb-[54.7px] rounded-md">
+                                                <img src="./assets/img/download.png" alt="" class="pb-[11px]">
+                                                <h4 class="font-bold text-[#101C2A]"> تحميل النماذج </h4>
+                                                <p class="text-[14px] text-[#424654]"> احصل على كافة النماذج الرسمية لطلبات الاشتراك والخدمات المختلفة. </p>
+                                        </div>
+                                         <div class="bg-[#FFFFFF]  px-8 pt-8 pb-[54.7px] rounded-md">
+                                                <img src="./assets/img/Centers.png" alt="" class="pb-[11px]">
+                                                <h4 class="font-bold text-[#101C2A]"> مراكز الشحن </h4>
+                                                <p class="text-[14px] text-[#424654]"> تعرف على أقرب نقاط شحن لعدادات الدفع المسبق في جميع المناطق. </p>
+                                        </div>
+                                </div>
+                            
+
+        </section>
+
+        <section class="News ">
+            <div class="all_news flex gap-4">
+            <div class="text-start w-[373.33px] h-[440.05px] " >
+                
+
+                    <div class="flex gap-2 pb-8 ">
+                    <img src="./assets/img/notif.png" alt="">
+                    <h4 class="font-bold text-[#101C2A] text-[24px] ">تنبيهات الانقطاع</h4>
+                </div>
+                <div class="pt-[32px] rounded-2xl bg-[#FFFFFF] p-5">
+                   <div class="flex  gap-5 justify-between pb-1 " >
+                    <h4>منطقة السوق القديم</h4>
+                    <p class="bg-[#FFDAD6] text-[#93000A] text-[10px] font-bold rounded-2xl p-1">مجدول</p>
+                   </div>
+                  <div class="flex gap-5 items-center ">
+                     <div class="flex gap-2">
+                        <img src="./assets/img/CALENDER.svg" alt=""> 
+                        <p>15 مايو 2024</p>
+                   </div>
+                   <div class="flex gap-2">
+                        <img src="./assets/img/CLOCK2.svg" alt=""> 
+                        <p class="">09:00 - 13:00</p>
+                   </div>
+                  </div>
+                </div>
+
+
+                    <div class="pt-[32px] rounded-2xl bg-[#FFFFFF] p-5 mt-3">
+                   <div class="flex  gap-5 justify-between pb-1  " >
+                    <h4>حي الأشجار والمنطقة الصناعية</h4>
+                    <p class=" text-center bg-[#D9E2FF] text-[#001945] text-[10px] font-bold rounded-2xl p-1 ">طارئ</p>
+                   </div>
+                  <div class="flex gap-5 items-center ">
+                     <div class="flex gap-2">
+                        <img src="./assets/img/CALENDER.svg" alt=""> 
+                        <p>14 مايو 2024</p>
+                   </div>
+                   <div class="flex gap-2">
+                        <img src="./assets/img/CLOCK2.svg" alt=""> 
+                        <p class="">تم الإصلاح</p>
+                   </div>
+                  </div>
+                </div>
+
+                    <div class="text-center pt-[12px]  bg-[#FFFFFF] p-5 mt-3">
+                        <a href="#" class="font-bold text-[14px] text-[#0047A9]">عرض كافة التنبيهات</a>
+                    </div> 
+
+
+
+                
+               
+            </div>
+
+                <div class="last_news w-full pr-6  ">
+                    <div class="flex justify-between  ">
+                        <div class="font-bold text-[#101C2A] text-[30px]">
+                            آخر الأخبار
+                        </div>
+
+                        <div class="flex gap-2">
+                            <a href="#">
+                                <img src="./assets/img/right.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/left.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img_news flex text-start mt-8 justify-baseline gap-3 ">
+
+                        <div class="">
+                            <img src="./assets/img/news4.png" alt=""  class="w-full">
+                            <h4 class="text-[#101C2A] text-[20px] font-bold py-2">توسعة محطة المحولات الرئيسية في طوباس</h4>
+                            <p class="text-[#424654] text-[14px] pb-2">أعلنت الشركة اليوم عن البدء في تنفيذ مشروع توسعة المحطة لزيادة القدرة الاستيعابية وتلبية الطلب المتزايد...</p>
+                           <a href="#" class="flex text-[#0047A9] text-[14px] pb-2 gap-2">
+                                اقرأ المزيد
+                                <img src="./assets/img/arrow.svg" alt="" class="text-[#0047A9] text-[14px]">
+                            </a>
+                        </div>
+
+                              <div>
+                            <img src="./assets/img/news3.png" alt="" class=" w-full">
+                            <h4 class="text-[#101C2A] text-[20px] font-bold py-2">إطلاق تطبيق الهاتف المحمول الجديد للمشتركين</h4>
+                            <p class="text-[#424654] text-[14px] pb-2">أصبح بإمكان المشتركين الآن متابعة استهلاكهم وشحن عداداتهم ودفع الفواتير من خلال التطبيق الجديد المتوفر على...</p>
+                          <a href="#" class="flex text-[#0047A9] text-[14px] pb-2 gap-2">
+                                اقرأ المزيد
+                                <img src="./assets/img/arrow.svg" alt="" >
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+        </section>
+                
+    </main>
+
 </body>
 </html>
-

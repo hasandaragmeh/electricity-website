@@ -3,7 +3,9 @@
 @layer base{
     body{
         font-family: "Tajawal";
-        background-color: #FFFFFF;
+        background-color: #EEF4FF;
+        
+        
     }
 }
 @utility nav_link {
