@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="./assets/css/output.css" rel="stylesheet">
@@ -9,50 +10,118 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>الرئيسية</title>
 </head>
 <body dir="rtl">
     
-    <header class="container text-center mx-auto md:py-2 lg:py-4  ">
-        <div class="flex    justify-between">
-            <div class="drower lg:hidden">
-                <img src="./assets/img/list.png" alt="" class="w-5 h-5">
+     <header class="bg-[#FFFFFF] mx-auto py-2 md:py-3 lg:py-4">
+
+    <div class="flex items-center justify-between container mx-auto px-3">
+
+      
+        <div class="flex items-center gap-4 lg:gap-8">
+
+           
+            <div class="xl:hidden">
+                <img src="./assets/img/list.png" 
+                     alt="" 
+                     class="w-5 h-5 cursor-pointer">
             </div>
-             <div class="flex gap-8"> 
-            <a href="./index.html" class="text-[24px]  font-extrabold text-[#1E40AF] ">
-                 شركة كهرباء طوباس
+
+         
+            <a href="./index.html"
+               class="text-[18px] lg:text-[20px] xl:text-[24px] font-extrabold text-[#1E40AF]">
+                شركة كهرباء طوباس
             </a>
 
-            <ul class="flex gap-6 text-[#475569] text-[20px] sm:hidden lg:flex">
-                <li><a href="#" class="nav_link">الرئيسية</a></li>
-                <li><a href="#" class="nav_link">الشركة</a></li>
-                <li><a href="#" class="nav_link">المشتركين</a></li>
-                <li><a href="#"class="nav_link">الاخبار</a></li>
-                <li><a href="#"class="nav_link">الخدمات</a></li>
-                <li><a href="#"class="nav_link">اتصل بنا</a></li>
-            </ul>
-        </div>
-        
-        <div>
-            <ul class="flex gap-4">
-                <li><a href="#"><img src="./assets/img/serch.svg" alt=""></a></li>
-                <li><a href="#"><img src="./assets/img/language.svg" alt=""></a></li>
+           
+            <ul class="hidden xl:flex items-center gap-3 lg:gap-6 text-[#475569] text-[15px] lg:text-[20px]">
+
                 <li>
-                    <a href="#" class="bg-[#0B5ED7] sm:px-4 md:px-6 lg:px-8 py-2 border border-[0B5ED7] rounded-xl text-[#FFFFFF]">
-                        دخول الموظفين 
+                    <a href="./index.html" class="nav_link">
+                        الرئيسية
                     </a>
                 </li>
+
+                <li>
+                    <a href="./contact_us.html" class="nav_link">
+                        عن الشركة
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="nav_link">
+                        المشتركين
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./news.html" class="nav_link">
+                        الأخبار
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./services.html" class="nav_link">
+                        الخدمات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="nav_link">
+                        اتصل بنا
+                    </a>
+                </li>
+
             </ul>
-        </div>
 
         </div>
-    </header>
+
+    
+        <div>
+
+            <ul class="flex items-center gap-3 md:gap-4">
+
+              
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/serch.svg"
+                             alt=""
+                             class="w-5 h-5">
+                    </a>
+                </li>
+
+               
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/language.svg"
+                             alt=""
+                             class="w-5 h-5">
+                    </a>
+                </li>
+
+            
+                <li>
+                   <a href="./login.html"
+                       class="bg-[#0B5ED7] px-3 md:px-5 lg:px-6 py-2 rounded-xl text-[#FFFFFF] text-sm md:text-base">
+                        دخول الموظفين
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</header>
+
 
     <main class="container text-center mx-auto">
           
-        <section class="hero  bg-[#EEF4FF]">
+        <section class="hero  bg-[#EEF4FF] ">
             
-            <div class="flex h-[calc(100vh-122px)] ">
+            <div class="flex h-auto lg:h-[calc(100vh-122px)]  ">
                 
                 <div class="md:pt-15 lg:pt-32 ">
                     
@@ -76,15 +145,15 @@
                         </p>
                     </div>
 
-                    <div class="flex gap-4 text-center md:py-2 lg:py-5">
+                    <div class="flex gap-4 text-center ">
                         <div>
-                            <button class="flex text-center bg-[#0B5ED7] text-[#FFFFFF] md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4">
+                            <button class="flex text-center bg-[#0B5ED7] text-[#FFFFFF] md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4 md:my-2 lg:my-5">
                                 <img src="./assets/img/Beware.svg " alt=""> بلاغ عطل
                             </button>
                         </div>
 
                         <div>
-                            <button class="flex text-center bg-[#FFFFFF] text-[#0B5ED7] md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4">
+                            <button class="flex text-center bg-[#FFFFFF] text-[#0B5ED7] md:my-2 lg:my-5 md:py-2 lg:py-4 md:px-4 lg:px-8 rounded-2xl md:text-2 lg:text-4">
                                تقديم شكوى
                             </button>
                         </div>
@@ -132,7 +201,7 @@
 
         </section>
 
-                        <section class="Services  justify-start my-[96px]">
+       <section class="Services  justify-start my-[96px]">
                             <div class="text-start justify-start mx-2">
                                 <div class="Services_header ">
                                     <p class="text-[30px] text-[#101C2A] font-bold ">الخدمات السريعة</p>
@@ -333,7 +402,7 @@
                 </div>
             </div>
         </section>
-                
+          
     </main>
 
 </body>

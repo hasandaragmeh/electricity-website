@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title> الخدمات </title>
+</head>
+
+<body dir="rtl" class="bg-[#F8FAFC]">
+
+    <!-- Header -->
+    <header class="bg-[#FFFFFF] mx-auto py-2 md:py-3 lg:py-4">
+
+    <div class="flex items-center justify-between container mx-auto px-3">
+
+        <!-- Left Side -->
+        <div class="flex items-center gap-4 lg:gap-8">
+
+            <!-- Drawer -->
+            <div class="xl:hidden">
+                <img src="./assets/img/list.png" 
+                     alt="" 
+                     class="w-5 h-5 cursor-pointer">
+            </div>
+
+            <!-- Logo -->
+            <a href="./index.html"
+               class="text-[18px] lg:text-[20px] xl:text-[24px] font-extrabold text-[#1E40AF]">
+                شركة كهرباء طوباس
+            </a>
+
+            <!-- Navbar -->
+            <ul class="hidden xl:flex items-center gap-3 lg:gap-6 text-[#475569] text-[15px] lg:text-[20px]">
+
+                <li>
+                    <a href="./index.html" class="nav_link">
+                        الرئيسية
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./contact_us.html" class="nav_link">
+                        عن الشركة
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="nav_link">
+                        المشتركين
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./news.html" class="nav_link">
+                        الأخبار
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./services.html" class="nav_link">
+                        الخدمات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="nav_link">
+                        اتصل بنا
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Right Side -->
+        <div>
+
+            <ul class="flex items-center gap-3 md:gap-4">
+
+                <!-- Search -->
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/serch.svg"
+                             alt=""
+                             class="w-5 h-5">
+                    </a>
+                </li>
+
+                <!-- Language -->
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/language.svg"
+                             alt=""
+                             class="w-5 h-5">
+                    </a>
+                </li>
+
+                <!-- Button -->
+                <li>
+                    <a href="./login.html"
+                       class="bg-[#0B5ED7] px-3 md:px-5 lg:px-6 py-2 rounded-xl text-[#FFFFFF] text-sm md:text-base">
+                        دخول الموظفين
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+    <!-- Main -->
+    <main>
+
+        <section class="Submit_reports my-[50px]">
+
+            <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-7">
+
+                <!-- Form -->
+                <div class="bg-white p-8 md:p-[48px] rounded-2xl">
+
+                    <!-- Title -->
+                    <div class="pb-[40px]">
+
+                        <h2 class="font-extrabold text-[#0047A9] text-[30px] pb-[11px]">
+                            تقديم بلاغ عطل فني
+                        </h2>
+
+                        <p class="text-[#424654] text-[18px] leading-8">
+                            يرجى تعبئة كافة الحقول أدناه لضمان سرعة معالجة العطل من قبل فرق الصيانة الفنية.
+                        </p>
+
+                    </div>
+
+                    <!-- Row 1 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+
+                        <div>
+
+                            <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                                الاسم الكامل
+                            </label>
+
+                            <input type="text"
+                                placeholder="أدخل اسمك الثلاثي"
+                                class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                        </div>
+
+                        <div>
+
+                            <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                                رقم الهاتف
+                            </label>
+
+                            <input type="text"
+                                placeholder="05XXXXXXXX"
+                                class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+
+                        <div>
+
+                            <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                                رقم الاشتراك
+                            </label>
+
+                            <input type="text"
+                                placeholder="رقم العداد أو الاشتراك"
+                                class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                        </div>
+
+                        <div>
+
+                            <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                                المنطقة
+                            </label>
+
+                            <select
+                                class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                                <option value="T">طوباس</option>
+                                <option value="A">عقابا</option>
+                                <option value="F">الفارعة</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Address -->
+                    <div class="mb-5">
+
+                        <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                            العنوان بالتفصيل
+                        </label>
+
+                        <input type="text"
+                            placeholder="الشارع، اسم المعلم القريب، رقم البناية"
+                            class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                    </div>
+
+                    <!-- Problem Type -->
+                    <div class="mb-5">
+
+                        <label for="prob"
+                            class="font-bold text-[14px] text-[#424654] block pb-2">
+                            نوع العطل
+                        </label>
+
+                        <select id="prob"
+                            class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] outline-none">
+
+                            <option value="1">مشكلة 1</option>
+                            <option value="2">مشكلة 2</option>
+                            <option value="3">مشكلة 3</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Description -->
+                    <div class="mb-5">
+
+                        <label class="font-bold text-[14px] text-[#424654] block pb-2">
+                            وصف العطل
+                        </label>
+
+                        <textarea
+                            placeholder="اشرح لنا طبيعة المشكلة بالتفصيل..."
+                            class="bg-[#D7E3F6] text-[#6B7280] px-4 py-4 rounded-2xl w-full min-h-[160px] resize-none outline-none"></textarea>
+
+                    </div>
+
+                    <!-- File -->
+                    <div>
+
+                        <label for="fileUpload"
+                            class="font-bold text-[14px] text-[#424654] block pb-2">
+
+                            إرفاق صورة (اختياري)
+
+                        </label>
+
+                        <input type="file"
+                            id="fileUpload"
+                            name="attachment"
+                            class="bg-[#D7E3F6] text-[#6B7280] px-4 rounded-2xl w-full h-[59px] block">
+
+                    </div>
+
+                </div>
+
+                <!-- Sidebar -->
+                <div class="bg-[#D7E3F6] p-6 rounded-2xl flex flex-col justify-between">
+
+                    <div>
+
+                        <!-- Top Card -->
+                        <div class="bg-[#3785f3] rounded-2xl min-h-[486px] flex flex-col justify-end p-8">
+
+                            <h3 class="pb-4 font-bold text-[#FFFFFF] text-[30px]">
+                                نعمل لأجلكم
+                            </h3>
+
+                            <p class="text-[#EFF6FF] text-[18px] leading-8">
+                                تلتزم شركة كهرباء طوباس بتوفير استجابة سريعة للأعطال
+                                الطارئة على مدار 24 ساعة لضمان استمرارية التيار الكهربائي.
+                            </p>
+
+                        </div>
+
+                        <!-- Info Cards -->
+                        <div class="flex flex-col md:flex-row gap-5 my-[32px]">
+
+                            <!-- Card 1 -->
+                            <div class="bg-[#EEF4FF] rounded-2xl p-6 text-center w-full">
+
+                                <img src="./assets/img/aloo.png"
+                                    alt=""
+                                    class="mx-auto pb-3">
+
+                                <p class="text-[#424654] text-[14px] pb-2">
+                                    الرقم المجاني
+                                </p>
+
+                                <p class="text-[#0047A9] font-bold text-[20px]">
+                                    1700-100-200
+                                </p>
+
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="bg-[#EEF4FF] rounded-2xl p-6 text-center w-full">
+
+                                <img src="./assets/img/clock_blue.png"
+                                    alt=""
+                                    class="mx-auto pb-3">
+
+                                <p class="text-[#424654] text-[14px] pb-2">
+                                    الاستجابة
+                                </p>
+
+                                <p class="text-[#0047A9] font-bold text-[20px]">
+                                    خلال 60 دقيقة
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Instructions -->
+                    <div class="bg-[#EEF4FF] rounded-2xl p-8 mt-8">
+
+                        <div class="flex items-center gap-3 pb-4">
+
+                            <img src="./assets/img/exclamation_mark.png" alt="">
+
+                            <p class="font-bold text-[#0047A9] text-[16px]">
+                                تعليمات هامة:
+                            </p>
+
+                        </div>
+
+                        <ul class="text-[#424654] leading-8 space-y-2">
+
+                            <li>
+                                في حال وجود أسلاك مقطوعة، لا تقترب منها مطلقاً.
+                            </li>
+
+                            <li>
+                                تأكد من فصل الأجهزة الكهربائية الحساسة أثناء العطل.
+                            </li>
+
+                            <li>
+                                البلاغات الكاذبة تعرض صاحبها للمساءلة القانونية.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <section class="footer mt-[96px] bg-white">
+
+        <hr>
+
+        <div class="container mx-auto px-4">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">
+
+                <!-- About -->
+                <div>
+
+                    <h2 class="font-bold text-[20px] text-[#1E3A8A] pb-[23px]">
+                        شركة كهرباء طوباس
+                    </h2>
+
+                    <p class="text-[14px] text-[#64748B] leading-7 pb-[23px]">
+                        نعمل بجد لتوفير طاقة كهربائية مستدامة وآمنة
+                        تساهم في نهضة وتطور منطقة طوباس والأغوار الشمالية.
+                    </p>
+
+                    <div class="flex gap-4">
+
+                        <a href="#">
+                            <img src="./assets/img/medal.svg" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="./assets/img/Link.svg" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="./assets/img/msg.svg" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Links -->
+                <div>
+
+                    <h2 class="font-bold text-[20px] text-[#1E3A8A] pb-[23px]">
+                        روابط سريعة
+                    </h2>
+
+                    <div class="flex flex-col gap-3">
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            من نحن
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            الأخبار والفعاليات
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            عطاءات ومناقصات
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            سياسة الخصوصية
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Services -->
+                <div>
+
+                    <h2 class="font-bold text-[20px] text-[#1E3A8A] pb-[23px]">
+                        الخدمات الإلكترونية
+                    </h2>
+
+                    <div class="flex flex-col gap-3">
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            شحن العدادات
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            الاستعلام عن الفواتير
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            طلب اشتراك جديد
+                        </a>
+
+                        <a href="#" class="text-[14px] text-[#64748B] hover:underline">
+                            شروط الاستخدام
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Contact -->
+                <div>
+
+                    <h2 class="font-bold text-[20px] text-[#1E3A8A] pb-[23px]">
+                        اتصل بنا
+                    </h2>
+
+                    <div class="flex flex-col gap-4">
+
+                        <div class="flex gap-2">
+
+                            <img src="./assets/img/map.svg" alt="">
+
+                            <p class="text-[14px] text-[#64748B]">
+                                طوباس، الشارع الرئيسي، مقابل المحافظة
+                            </p>
+
+                        </div>
+
+                        <div class="flex gap-2">
+
+                            <img src="./assets/img/call.svg" alt="">
+
+                            <p class="text-[14px] text-[#64748B]">
+                                09-2573111
+                            </p>
+
+                        </div>
+
+                        <div class="flex gap-2">
+
+                            <img src="./assets/img/map.svg" alt="">
+
+                            <p class="text-[14px] text-[#64748B]">
+                                info@tubaselec.ps
+                            </p>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

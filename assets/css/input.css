@@ -8,6 +8,12 @@
         
     }
 }
-@utility nav_link {
+/* @utility nav_link {
   @apply hover:text-[#1D4ED8] transition-all duration-700 hover:underline hover:underline-offset-4;
+} */
+
+@layer utilities {
+  .nav_link {
+    @apply hover:text-[#1D4ED8] transition-all duration-700 hover:underline hover:underline-offset-4;
+  }
 }
